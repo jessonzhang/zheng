@@ -5,6 +5,7 @@
         <groupId>com.zheng</groupId>
         <artifactId>zheng-version</artifactId>
         <version>1.0.0</version>
+        <relativePath>./zheng-version</relativePath>
     </parent>
     <artifactId>zheng</artifactId>
     <version>1.0.0</version>

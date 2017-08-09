@@ -81,7 +81,7 @@
         <maven-deploy-plugin.version>2.4</maven-deploy-plugin.version>
         <maven-resources-plugin.version>2.6</maven-resources-plugin.version>
         <maven-dependency-plugin.version>2.6</maven-dependency-plugin.version>
-        <mybatis-generator-maven-plugin.version>2.6</mybatis-generator-maven-plugin.version>
+        <mybatis-generator-maven-plugin.version>1.3.2</mybatis-generator-maven-plugin.version>
 
     </properties>
 
