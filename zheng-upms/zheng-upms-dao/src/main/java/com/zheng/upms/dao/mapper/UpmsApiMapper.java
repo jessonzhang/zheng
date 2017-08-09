@@ -1,10 +1,10 @@
-package com.zheng.upms.rpc.mapper;
+package com.zheng.upms.dao.mapper;
 
+
+import java.util.List;
 
 import com.zheng.upms.dao.model.UpmsPermission;
 import com.zheng.upms.dao.model.UpmsRole;
-
-import java.util.List;
 
 /**
  * 用户VOMapper
