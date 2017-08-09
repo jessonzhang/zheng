@@ -1,8 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
-    <groupId>com.zheng</groupId>
+    <parent>
+        <groupId>com.zheng</groupId>
+        <artifactId>zheng-version</artifactId>
+        <version>1.0.0</version>
+    </parent>
     <artifactId>zheng</artifactId>
     <version>1.0.0</version>
     <packaging>pom</packaging>
@@ -34,4 +37,21 @@
         <module>zheng-api</module>
         <module>zheng-demo</module>
     </modules>
+
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.zheng</groupId>
+                <artifactId>zheng-common</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>com.zheng</groupId>
+                <artifactId>zheng-admin</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+
 </project>
